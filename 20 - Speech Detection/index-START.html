@@ -32,11 +32,6 @@ recognition.addEventListener('result', e => {
       words.appendChild(p);
     }
 
-    if(transcript.includes('test')) {
-      console.log('nice');
-    }
-
-    console.log(transcript);
 });
 
 recognition.addEventListener('end', recognition.start);
